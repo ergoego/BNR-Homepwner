@@ -14,6 +14,8 @@
 		FCC21C5A20C9EABF00814EED /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC21C5920C9EABF00814EED /* HomepwnerTests.swift */; };
 		FCC21C6520C9EABF00814EED /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC21C6420C9EABF00814EED /* HomepwnerUITests.swift */; };
 		FCC21C7320C9EC2B00814EED /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC21C7220C9EC2B00814EED /* ItemsViewController.swift */; };
+		FCC21C7520C9EE1300814EED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC21C7420C9EE1300814EED /* Item.swift */; };
+		FCC21C7720C9F2EF00814EED /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC21C7620C9F2EF00814EED /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FCC21C6420C9EABF00814EED /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		FCC21C6620C9EABF00814EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC21C7220C9EC2B00814EED /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		FCC21C7420C9EE1300814EED /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FCC21C7620C9F2EF00814EED /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		FCC21C4320C9EABE00814EED /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				FCC21C7420C9EE1300814EED /* Item.swift */,
+				FCC21C7620C9F2EF00814EED /* ItemStore.swift */,
 				FCC21C7220C9EC2B00814EED /* ItemsViewController.swift */,
 				FCC21C4420C9EABE00814EED /* AppDelegate.swift */,
 				FCC21C4820C9EABE00814EED /* Main.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC21C7320C9EC2B00814EED /* ItemsViewController.swift in Sources */,
+				FCC21C7520C9EE1300814EED /* Item.swift in Sources */,
+				FCC21C7720C9F2EF00814EED /* ItemStore.swift in Sources */,
 				FCC21C4520C9EABE00814EED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
